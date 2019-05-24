@@ -4,9 +4,16 @@ var words = ["r2d2", "skywalker", "vader", "endor",];
 var randChoice = Math.floor(Math.random() * words.length);
 var chosenWord = words[randChoice];
 var underScore = []
-console.log(randChoice)
+console.log(chosenWord)
 //create underscores for size of word
-
+var makeUnderscore = () => {
+    for(let i = 0; i < chosenWord.length; i++) {
+        underScore.push('_');
+        console.log(makeUnderscore);
+    }
+    return underScore;
+    
+}
 //get users guess
 //onkey
 
