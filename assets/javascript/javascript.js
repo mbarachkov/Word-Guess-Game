@@ -6,14 +6,16 @@ var chosenWord = words[randChoice];
 var underScore = []
 console.log(chosenWord)
 //create underscores for size of word
-var makeUnderscore = () => {
-    for(let i = 0; i < chosenWord.length; i++) {
-        underScore.push('_');
-        console.log(makeUnderscore);
+var makeUnderscore = () =>   {
+    for(var i = 0; i < chosenWord.length; i++) {
+        underScore.push("_");
+        console.log(underScore);
     }
     return underScore;
-    
+   
 }
+console.log(makeUnderscore());
+
 //get users guess
 //onkey
 
